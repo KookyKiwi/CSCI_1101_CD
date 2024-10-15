@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: yellowgreen;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #777777;
+}
+
+td {
+    background-color: #aaaaaa;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    max-width: baseline;
+    margin: auto;
+}
+
+#btn {
+    height: 30px;
+    width: auto;
+    border-radius: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn:active {
+    background-color: #777777;
+}
